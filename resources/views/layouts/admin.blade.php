@@ -27,7 +27,7 @@
                 </div>
                 <div class="btn-group">
                     <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        {{Auth::user()->name}}
+                        {{Auth::user()->username_login}}
                     </button>
                     <div class="dropdown-menu dropdown-menu-right">
                         <a class="dropdown-item" href="#">Tài khoản</a>
